@@ -1,0 +1,145 @@
+*{
+	margin:0;
+	padding:0;
+	box-sizing:border-box; 
+}
+
+
+body{
+}
+
+.main{
+    background:white;
+	width:100%;
+	height:120px;
+	padding: 15px 20px;
+}
+
+ul{
+	display:flex;
+	justify-content:space-between;
+	margin:10px;
+
+
+}
+
+ul li{
+	list-style: none;
+}
+
+#top{
+	display:flex;
+	justify-content:space-between;
+	align-items: center;
+}
+
+.search-container{
+	width:80%;
+	border:2px solid black;
+	background-color: white;
+	height:50px;
+	border-radius: 30px;
+	padding-right:20px;
+	padding-left:20px;
+	overflow:hidden;
+
+}
+
+.search-container input{
+	background-color: white;
+	width:98%;
+	height:50px;
+	border:0;
+}
+
+#top button{
+	border:0;
+	background:white;
+
+}
+#top button:hover{
+	background-color:blue;
+	height:100px;
+	width:100px;
+	border-radius:10%;
+}
+
+#top >h1{
+	color: orange;
+	font-weight: bold;
+}
+
+#second-line{
+	background:#ddebe3;
+	width:100%;
+	height:250px;
+}
+
+#second-line  h2{
+	text-align:center;
+	padding:24px 12px 18px;
+	font-size: 55px;
+	font-weight:normal;
+}
+
+#flex{
+	height:200px;
+	background:white;
+	display:flex;
+
+}
+
+#flex1{
+	background:yellow;
+	height:100%;
+	width:100%;
+	margin-left:30px;
+	margin-right:15px;
+
+}
+
+#flex2{
+	background:red;
+	height:100%;
+	width:100%;
+	margin-right:15px;
+
+
+}
+#flex3{
+	background:green;
+	height:100%;
+	width:100%;
+	margin-right:15px;
+
+
+}
+#flex4{
+	background:orange;
+	height:100%;
+	width:100%;
+	margin-right:15px;
+
+
+}
+#flex5{
+	background:yellow;
+	height:100%;
+	width:100%;
+	margin-right:15px;
+
+
+}
+#third-line h2{
+	padding-top: 200px;
+	padding-bottom:20px;
+	padding-left:30px;
+	font-size:30px;
+}
+
+#flex1 p {
+	
+}
+
+
+
