@@ -15,7 +15,7 @@ body{
 	padding: 15px 20px;
 }
 
-ul{
+nav > ul{
 	display:flex;
 	justify-content:space-between;
 	margin:10px;
@@ -23,7 +23,7 @@ ul{
 
 }
 
-ul li{
+nav > ul > li{
 	list-style: none;
 }
 
@@ -50,6 +50,7 @@ ul li{
 	width:98%;
 	height:50px;
 	border:0;
+	outline:0;
 }
 
 #top button{
@@ -604,14 +605,14 @@ background-position: center;
 }
 
 #fifth{
-	background:pink;
-	height:450px;
+	background:;
+	height:350px;
 	width:93%;
 	margin:45px;
 }
 
 #inner-fifth{
-	background:blue;
+	background:;
 	height:85%;
 	margin-top:15px;
 	width:100%;
@@ -625,6 +626,9 @@ background-position: center;
 	width:235px;
 	margin-right:17px;
 	border-radius:7px;
+	background-image:url(../img/wallet/new2.jpg);
+	background-position: center;
+
 
 
 }
@@ -635,6 +639,8 @@ background:yellow;
 	width:235px;
 	margin-right:17px;
 	border-radius:7px;
+	background-image:url(../img/wallet/new1.jpg);
+	background-position: center;
 
 }
 
@@ -644,6 +650,8 @@ background:pink;
 	width:235px;
 	margin-right:17px;
 	border-radius:7px;
+	background-image:url(../img/wallet/new3.jpg);
+	background-position: center;
 }
 
 #inner-fifth4{
@@ -652,6 +660,8 @@ background:brown;
 	width:235px;
 	margin-right:17px;
 	border-radius:7px;
+	background-image:url(../img/wallet/new4.jpg);
+	background-position: center;
 	
 }
 
@@ -660,10 +670,506 @@ background:green;
 	height:200px;
 	width:235px;
 	border-radius:7px;
+	background-image:url(../img/wallet/new5.jpg);
+	background-position: center;
 
 }
 
+#sixth{
+	background:;
+	width:93%;
+	height:500px;
+	margin-left:45px;
+}
+
+#sixth-text{
+	display:flex;
+	padding-top:30px;
+	justify-content: space-between;
+}
+
+#sixth> p{
+	font-size:30px;
+	font-weight:bold;
+}
+
+.sixthp{
+font-size:25px;	
+}
+
+#sixthpi{
+	border-bottom:3px solid black;
+	transform: translateY(3px);
+	padding-left:15px;
+}
+
+#sixthpi2{
+	padding-right:10px;
+}
+
+#inner-sixth{
+  background:;
+	height:85%;
+	margin-top:15px;
+	width:100%;
+	display:flex;
+	flex-wrap:wrap;
+	}
+
+#inner-sixth1{
+background:brown;
+height:304px;
+width:400px;
+margin-right:24px;
+border-radius:8px;
+background-image:url(../img/wallet/few.jpg);
+background-size: cover;
+}
+
+#inner-sixth2{
+background:pink;
+height:140px;
+width:190px;
+margin-right:24px;
+border-radius:8px;
+background-image:url(../img/wallet/few1.jpg);
+background-size: cover;
+
+}
+
+#inner-sixth3{
+background:orange;
+height:304px;
+width:400px;
+margin-right:24px;
+border-radius:8px;
+background-image:url(../img/wallet/few3.jpg);
+background-size: cover;
+
+}
+
+#inner-sixth4{
+background:pink;
+height:140px;
+width:190px;
+border-radius:8px;
+background-image:url(../img/wallet/few4.jpg);
+background-size: cover;
+}
+
+#inner-sixth5{
+background:red;
+height:140px;
+width:190px;
+margin-left:424px;
+margin-top:-180px;
+border-radius:8px;
+background-image:url(../img/wallet/few2.jpg);
+background-size: cover;
 
 
+}
+
+#inner-sixth6{
+background:green;
+height:140px;
+width:190px;
+margin-left:1063px;
+margin-top:-223px;
+border-radius:8px;
+background-image:url(../img/wallet/few6.jpg);
+background-size: cover;
+
+}
+
+#seventh{
+	background:;
+	width:93%;
+	height:400px;
+	margin-top:40px;
+	margin-left:50px;
+}
+
+#seventh1{
+	display:flex;
+	align-items:center;
+}
+
+#seventh1 i{
+padding-left:10px;
+}
+
+#inner-seventh{
+	display:flex;
+}
+
+#inner-seventh1{
+	background:pink;
+	width:230px;
+	height:240px;
+	margin-right:25px;
+	background-image:url(../img/wallet/line.webp);
+     background-size: cover;
+     background-position: center;
+
+}
+
+#inner-seventh2{
+	background:blue;
+	width:230px;
+	height:240px;
+	margin-right:25px;
+	background-image:url(../img/wallet/2.jpg);
+    background-size: cover;
+    background-position: center;
+
+}
+
+#inner-seventh3{
+	background:yellow;
+	width:230px;
+	height:240px;
+	margin-right:25px;
+	background-image:url(../img/wallet/line3.webp);
+    background-size: cover;
+    background-position: center;
+
+}
+
+#inner-seventh4{
+	background:white;
+	width:230px;
+	height:240px;
+	margin-right:25px;
+	background-image:url(../img/wallet/line2.webp);
+    background-size: cover;
+    background-position: center;
+
+}
+
+#inner-seventh5{
+	background:red;
+	width:230px;
+	height:240px;
+	background-image:url(../img/wallet/line4.webp);
+    background-size: cover;
+    background-position: center;
+ 
+
+}
+
+#inner-seventh1p h1{
+text-align:center;
+background: white;
+width:230px;
+height:70px;
+border:1px solid grey;
+
+}
+
+#inner-seventh2p h1{
+text-align:center;
+background: white;
+width:230px;
+height:70px;
+border:1px solid grey;
+
+}
+
+#inner-seventh3p h1{
+text-align:center;
+background: white;
+width:230px;
+height:70px;
+border:1px solid grey;
+
+}
+
+#inner-seventh4p h1{
+text-align:center;
+background: white;
+width:230px;
+height:70px;
+border:1px solid grey;
+
+}
+
+#inner-seventh5p h1{
+text-align:center;
+background:white;
+width:230px;
+height:70px;
+border:1px solid grey;
+
+}
+
+#Eight{
+	background: #FDEBD2;
+	width:100%;
+	height:600px;
+	margin-top:40px;
+}
+
+#Eight > h1{
+	text-align:center;
+	font-size:50px;
+	padding-top:30px;
+	font-weight:70;
+}
+
+#Eight > p{
+   text-align:center;
+   border-bottom:1px solid black;
+   width:220px;
+   margin:auto;
+}
+
+#article{
+	background:;
+	width:100%;
+	height:500px;
+	margin-top:50px;
+	display:flex;
+	flex-wrap:wrap;
+	justify-content: space-around;
+	padding-left:28px;
+}
+
+#article1{
+	background:;
+	width:420px;
+	height:300px;
+	margin-right:20px;
+}
+
+#article2{
+	background:;
+	width:420px;
+	height:300px;
+	margin-right:20px;
+}
+
+#article3{
+	background:;
+	width:420px;
+	height:300px;
+	margin-right:20px;
+}
 
 
+#article4{
+	background:;
+	width:500px;
+	height:200px;
+	margin-left:-20px;
+	margin-top:-10px;
+}
+
+#article4 button{
+	width:180px;
+	margin-left:150px;
+	margin-top:8px;
+	height:50px;
+	border-radius:20px;
+	border:2px solid black;
+	font-weight:1000;
+	background:#FDEBD2; 
+
+}
+
+article  h2{
+	font-weight:1000px;
+}
+
+.sly{
+	font-size:30px;
+}
+
+.sly1{
+	line-height: 40px;
+	font-size:18px;
+}
+
+#article4 p{
+	font-size:25px;
+}
+
+#ninth{
+	background:#d7e6f5;
+	height:180px;
+	width:100%;
+}
+
+#ninth h3{
+	text-align:center;
+	padding-top:50px;
+}
+
+#ninth input{
+	width:500px;
+	height:50px;
+	margin-left:410px;
+	border-radius:30px;
+	margin-top:25px;
+	border:1px solid grey;
+	padding-left:3px;
+}
+
+#submit button{
+	margin-left:-90px;
+	font-size: 16px;
+	font-weight:9;
+	border:0;
+	background:white;
+}
+
+#tenth{
+	background:#4d6bc6;
+	height:70px;
+	width:100%;
+}
+
+#tenth h3{
+	color:white;
+	text-align:center;
+	border-bottom:3px dotted white;
+	width:350px;
+	margin:auto;
+	padding-top:30px;
+}
+
+#eleventh{
+	background:#2f466c;
+	width:100%;
+	height:380px;
+}
+
+#inner-eleventh{
+	display:flex;
+	justify-content:space-around;
+}
+
+#eleventh  ul li{
+	list-style-type:none;
+	color:white;
+	line-height: 20px;
+	margin-top:20px;
+}
+
+#inner-eleventh1 {
+	margin-left:-100px;
+}
+
+.in{
+	font-weight:bold;
+	font-size: 18px;
+}
+
+#inner-eleventh4{
+	background:;
+	height:232px;
+	width:285px;
+	margin-right:-15px;
+}
+
+#inner-eleventh4 button{
+	width:95%;
+	height:40px;
+	border-radius:20px;
+	border:2px solid white;
+	background:none;
+	color:white;
+	margin-top:20px;
+	font-size:17px;
+
+}
+
+#inner-eleventh4 button i{
+	margin-left:-30px;
+	background:white;
+	color:black;
+	height:20px;
+	width:20px;
+}
+
+#inn{
+	margin-left:13px;
+}
+
+#nit{
+	
+	margin-top:20px;
+	width:40px;
+	height:40px;
+	color:white;
+	font-size:30px;
+	margin-right:13px;
+}
+
+#nit1{
+	background:;
+	margin-top:20px;
+	width:40px;
+	height:40px;
+	color:white;
+	font-size:30px;
+	margin-right:13px;
+}
+
+#nit2{
+	background:;
+	margin-top:20px;
+	width:40px;
+	height:40px;
+	color:white;
+	font-size:30px;
+	margin-right:13px;
+}
+#nit3{
+	background:;
+	margin-top:20px;
+	width:40px;
+	height:40px;
+	color:white;
+	font-size:30px;
+	margin-right:13px;
+}
+#nit4{
+	background:;
+	margin-top:20px;
+	width:40px;
+	height:40px;
+	color:white;
+	font-size:30px;
+	margin-right:13px;
+}
+
+#footer{
+	background: #00008b;
+	width:100%;
+	height:85px;
+	
+}
+
+#footer1 button{
+	width:300px;
+	height:50px;
+	margin-top: 15px;
+	color:white;
+	font-weight:bold;
+	border-radius: 15px;
+	background: none;
+	margin-left: -15px;
+	border:0;
+
+}
+
+#ft{
+	color:white;
+	margin-left:600px;
+}
+
+#footer1 span{
+	margin-right: 13px;
+	
+}
